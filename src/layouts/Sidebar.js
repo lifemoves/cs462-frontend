@@ -107,7 +107,7 @@ const Sidebar = () => {
             color="danger"
             tag="a"
             className="mt-3"
-            href="/logout"
+            href="/login"
           >
             Logout
           </Button>
