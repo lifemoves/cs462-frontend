@@ -30,7 +30,7 @@ const ThemeRoutes = [
       { path: "/home", exact: true, element: <Home /> },
       { path: "/profile", exact: true, element: <Profile /> },
       { path: "/notifications", exact: true, element: <Notifications /> },
-      { path: "/", element: <Navigate to="/starter" /> },
+      { path: "/", element: <Navigate to="/home" /> },
       { path: "/starter", exact: true, element: <Starter /> },
       { path: "/about", exact: true, element: <About /> },
       { path: "/alerts", exact: true, element: <Alerts /> },
