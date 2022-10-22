@@ -36,28 +36,30 @@ const Home = () => {
             </div>
             <div className="container">
             <div className="row d-flex justify-content-center">
-                <div className="col-2 d-flex justify-content-center">
+                <div className="col-3 d-flex justify-content-center">
                 <Button
-                  className="mt-3"
+                  className="mt-3 rounded-circle"
                   style={{
                     backgroundColor: '#328D3D',
                     color: '#ffffff',
                     padding: '10px',
                     fontSize: '25px',
-                    width: '50px'
+                    width: '60px',
+                    height: '60px'
                   }}>
                   ✓
                 </Button>
                 </div>
-                <div className="col-2 d-flex justify-content-center">
+                <div className="col-3 d-flex justify-content-center">
                 <Button
-                  className="mt-3"
+                  className="mt-3 rounded-circle"
                   style={{
                     backgroundColor: '#9C3737',
                     color: '#ffffff',
                     padding: '10px',
                     fontSize: '25px',
-                    width: '50px'
+                    width: '60px',
+                    height: '60px'
                   }}>
                   X
                 </Button>
