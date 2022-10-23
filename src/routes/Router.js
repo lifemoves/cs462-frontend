@@ -3,10 +3,11 @@ import { Navigate } from "react-router-dom";
 
 /****Layouts*****/
 const FullLayout = lazy(() => import("../layouts/FullLayout.js"));
+const NoSidebar = lazy(() => import("../layouts/NoSidebar.js"));
 
 /***** Pages ****/
-const Login = lazy(() => import("../components/login.component.js"));
-const Register = lazy(() => import("../components/register.component.js"));
+const Login = lazy(() => import("../views/Login.js"));
+const Register = lazy(() => import("../views/Register.js"));
 const Home = lazy(() => import("../views/Home.js"));
 const Profile = lazy(() => import("../views/Profile.js"));
 const Notifications = lazy(() => import("../views/Notifications.js"));
@@ -48,6 +49,7 @@ const ThemeRoutes = [
     ],
   },
   {
+    element: <NoSidebar />,
     children: [
       { path: "/", element: <Navigate to="/login" /> },
       { path: "/login", exact: true, element: <Login /> },
